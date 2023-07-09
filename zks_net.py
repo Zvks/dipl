@@ -12,6 +12,8 @@ from tensorflow.keras.optimizers import Adam
 import math                               # Математические функции
 from keras.models import Model
 from keras.layers import Input, AveragePooling2D, GlobalAveragePooling2D
+# Подключение оптимизатора Adam
+from tensorflow.keras.optimizers import Adam
 
 IMAGE_PATH = '/media/user/26C2BC47C2BC1CCD/D_projects/dipl_2/dipl/img/'
 
@@ -145,8 +147,7 @@ model = keras.models.Sequential([
 
 model.summary()
 
-# Подключение оптимизатора Adam
-from tensorflow.keras.optimizers import Adam
+
 # Компиляция модели
 model.compile(loss='sparse_categorical_crossentropy', optimizer=Adam(learning_rate=0.0001), metrics=['accuracy'])
 
