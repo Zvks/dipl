@@ -1,3 +1,7 @@
+# 0 Настройка git
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
 # 1 Cоздание виртуальной среды virtualenvwrapper
 Установка 
 sudo pip3 install virtualenvwrapper
