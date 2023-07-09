@@ -1,2 +1,23 @@
-Test
- test2
+# 1 Cоздание виртуальной среды virtualenvwrapper
+Установка 
+sudo pip3 install virtualenvwrapper
+#Virtualenvwrapper settings:
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3.11
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_VIRTUALENV=~/.local/bin/virtualenv
+source ~/.local/bin/virtualenvwrapper.sh
+
+плагин к vsc
+Python Environment Manager
+
+
+# 2 Настройка сборщика 
+-- потерял скрипт 
+
+# 3 Библиотеки
+kivy
+tensorflow
+numpy
+keras
+matplotlib
+
