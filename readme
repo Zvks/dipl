@@ -33,3 +33,4 @@ numpy
 keras
 matplotlib
 
+sudo apt install hardinfo 
